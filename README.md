@@ -25,6 +25,15 @@ Netflix hosts a vast and diverse content library. However, without structured se
 
 ---
 
+## 🌐 Live Demo
+
+🚀 Try the deployed app here:
+👉 https://netflix-content-clustering-and-strategy-dashboard.streamlit.app/
+
+⚠️ Note: The app may take a few seconds to load initially due to inactivity (free hosting behavior).
+
+---
+
 ## 🧠 Approach
 
 ### 1. Data Processing
@@ -255,14 +264,6 @@ An interactive dashboard was built to:
 ├── data/raw 
 │   ├── NETFLIX MOVIES AND TV SHOWS CLUSTERING
 │
-├── src/
-│   ├── data_loader.py
-│   ├── data_preprocessing.py
-│   ├── nlp_preprocessing.py
-│   ├── feature_builder.py
-│   ├── dimensionality_reduction.py
-│   ├── clustering.py
-│
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_text_preprocessing.ipynb
@@ -271,6 +272,14 @@ An interactive dashboard was built to:
 │   ├── 05_final_model.ipynb
 │   ├── 06_business_insights.ipynb
 │   ├── Netflix_Clustering_main.ipynb
+|
+├── src/
+│   ├── data_loader.py
+│   ├── data_preprocessing.py
+│   ├── nlp_preprocessing.py
+│   ├── feature_builder.py
+│   ├── dimensionality_reduction.py
+│   ├── clustering.py
 │
 ├── app.py
 ├── .gitignore
@@ -293,7 +302,6 @@ An interactive dashboard was built to:
 ## 🚀 Future Improvements
 
 * Add **real-time clustering for new content**
-* Deploy app on **Streamlit Cloud**
 * Integrate with recommendation engine
 * Add similarity search (content recommendation)
 
